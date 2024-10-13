@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+img {
+    width: 150px;
+}
+h1{
+    font-weight: normal;
+    text-shadow: 2px 2px 4px #000;
+}
+body{
+    background-color: rgb(245, 219, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.centralizar{
+    margin:0 auto;
+}
+.formulario{    
+    background-color: pink;
+    width:1150px;
+    max-width: 100%;
+    margin:50px auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+input{
+    padding: 15px;
+    border-radius: 20px;
+    display:flex;
+    margin-top: 8px;   
+    width: 100%;
+    max-width: 850px;
+}
+.telefone{
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+#telDDD{
+    flex: 1;
+}
+#telefone{
+    flex:4;
+}
+#botao {
+    padding:10px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 8px;
+    background-color: rgb(246, 208, 236);
+}
+table{
+    margin: 20px auto;
+    background-color: rgb(244, 140, 201);
+    border-radius: 20px;
+   
+    table-layout: auto;
+    border-collapse: collapse;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+table th, table td{
+    padding: 20px;
+    text-align: left;
+    white-space: nowrap;
+}
+th {
+    background-color: #f4a3cc;
+    font-weight: bold;
+}
+}
+.colunas{
+    gap: 75px;
+    padding: 10px;  
+    display: inline-flex;
+}
+.telefone{
+    display: flex;
+}
